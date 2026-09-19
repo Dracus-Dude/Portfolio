@@ -135,9 +135,10 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+  width: calc(100% - 3rem);
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid {
